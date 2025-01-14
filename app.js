@@ -16,5 +16,5 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         return;
     }
 
-    alert('Form Submitted');
+    window.location.href = `welcome.html?name=${encodeURIComponent(name)}`;
 });

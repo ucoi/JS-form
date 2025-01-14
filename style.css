@@ -14,7 +14,6 @@ label{
     margin: 10px 0;
 }
 button{
-
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -27,4 +26,7 @@ button{
 }
 button:hover{
     background-color: #444;
+}
+*{
+    background-color: hwb(0 18% 67%);
 }
